@@ -1,0 +1,98 @@
+#main_container {
+	/* border: 1px solid blue; */
+	font-family: Verdana;	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#header {
+	/* border: 1px solid red; */
+	font-family: "Comic Sans MS";
+	background: Gray;
+	width: 100%;
+	height: 130px;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	padding-top: 20px; 
+}
+
+#header h3 {
+	/* border: 1px solid blue; */
+}
+
+#menu {
+	/* border: 1px solid yellow; */
+	font-family: "Comic Sans MS";
+	background: DarkGray;
+	/* width: 30%; */
+	width: 200px;
+	float: left;  /* чтобы блоки #menu и #content располагались рядом, 
+				 	 сделаем блок "menu" плавающим и прижмем его к левому краю */
+	height: 1400px;
+	text-align: center;
+	color: white;
+	font-size: 18px;		
+}
+
+#menu .menu_button {
+	/* border: 1px solid red; */
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background: Black;
+}
+
+#menu .menu_button a {
+	/* border: 1px solid blue; */
+	text-decoration: none;
+	color: white;
+}
+
+/* Меняем цвет кнопок и надписей при наведении курсора мышки на них: */
+#menu .menu_button:hover { background-color: DarkSlateGrey; }
+#menu .menu_button a:hover { color: Chocolate; }
+
+#content {
+	/* border: 1px solid blue; */
+	background: LightGray;
+	font-family: Verdana;
+	/* margin-left: 30%; */
+	margin-left: 200px;
+	height: 1400px;
+	/* text-align: center; */
+	font-size: 16px; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#content #content_header {
+	/* border: 1px solid red; */
+	font-family: "Comic Sans MS";
+	font-size: 18px; 
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+}
+
+#footer {
+	/* border: 1px solid red; */
+	font-family: "Comic Sans MS";
+	background: Gray;
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#footer a {
+	/* border: 1px solid blue; */
+	text-decoration: none;
+	color: white;
+}
+
+/* Меняем цвет надписи при наведении курсора мышки на неё: */
+#footer a:hover { color: Chocolate; } 
